@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhatToEatToday?</string>
+    <string name="storage_file">storage_file</string>
+    <string name="chosenFood">chosenFood</string>
+
+</resources>
+
+

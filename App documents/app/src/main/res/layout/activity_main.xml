@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f1df"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainFoodTxtV"
+        android:inputType="textCapWords"
+        tools:text="*Enter text Here*"
+        android:textSize="30sp"
+        android:textColor="#4e69ba"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#335dde"
+        android:text="Decide"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="25sp"
+        android:id="@+id/mainDecideBtnn"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:text="Edit Food List"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="25sp"
+        android:background="#335dde"
+        android:id="@+id/mainEditFoodListBtn"
+        android:layout_marginTop="18dp"/>
+
+
+
+</LinearLayout>
